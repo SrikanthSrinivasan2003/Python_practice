@@ -47,4 +47,4 @@ for i in range(len(maximum_index_arr)-1):
 if len(maximum_index_arr) < 2:
     print(-1)
 else:
-    print(minimum_distance)
+    print("The Minimum Distance Between Two Peak Elements is : " + str(minimum_distance))
