@@ -9,9 +9,5 @@ def group_anagrams(strs):
     return list(anagrams.values())
 
 
-size = int(input("Enter Array Size\n"))
-strs = []
-for _ in range(size):
-    string = input("Enter the string\n")
-    strs.append(string)
+strs = input("Enter the strings with space\n").split()
 print(group_anagrams(strs))
